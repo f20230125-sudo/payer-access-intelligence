@@ -5,6 +5,7 @@ Evidence lives in `outputs/`; this file distinguishes implementation checks from
 | Check | Result / receipt |
 |---|---|
 | Original CMS and NLM acquisition | [Successful run](https://github.com/f20230125-sudo/rx-market-pulse/actions/runs/39008455037); archive hashes and source row counts retained |
+| Standalone repository rebuild | [GitHub Actions validation](https://github.com/f20230125-sudo/payer-access-intelligence/actions/runs/39014198863): 17 analytical tests, source audit, Microsoft report schemas, eight Calc scenarios and report generation passed |
 | Slice integrity | Every derivative SHA-256 checked before local import and build |
 | Analytical failure modes | `tests/test_pipeline.py`; pytest results recorded in CI |
 | Independent source audit | 20 sampled plan-brand-snapshot combinations, checked against direct source rows |
