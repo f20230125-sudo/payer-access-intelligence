@@ -1,0 +1,33 @@
+{
+  "source_audit": {
+    "cases": 20,
+    "passed": 20
+  },
+  "analytical_tests": {
+    "passed": 17,
+    "failed": 0
+  },
+  "powerbi_schema_validation": "passed",
+  "spreadsheet_engine": "LibreOffice Calc",
+  "spreadsheet_scenarios_passed": 8,
+  "spreadsheet_values_passed": 64,
+  "powerbi_tmdl": {
+    "validator": "Microsoft.AnalysisServices.Tabular.TmdlSerializer",
+    "status": "passed",
+    "database": "PayerAccess",
+    "tables": 10,
+    "relationships": 11,
+    "measures": 29,
+    "desktopRendered": false,
+    "daxExecuted": false
+  },
+  "pending": [
+    "Microsoft Excel runtime validation",
+    "Power BI Desktop rendering and DAX execution",
+    "PBIX save/export"
+  ],
+  "source_acquisition_run": "https://github.com/f20230125-sudo/rx-market-pulse/actions/runs/39008455037",
+  "schema_calc_validation_run": "https://github.com/f20230125-sudo/rx-market-pulse/actions/runs/39012569694",
+  "portable_rebuild_marts": 13,
+  "ci_analytical_tests_passed": 17
+}

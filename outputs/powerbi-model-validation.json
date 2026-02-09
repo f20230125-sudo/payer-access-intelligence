@@ -1,0 +1,10 @@
+﻿{
+    "validator":  "Microsoft.AnalysisServices.Tabular.TmdlSerializer",
+    "status":  "passed",
+    "database":  "PayerAccess",
+    "tables":  10,
+    "relationships":  11,
+    "measures":  29,
+    "desktopRendered":  false,
+    "daxExecuted":  false
+}

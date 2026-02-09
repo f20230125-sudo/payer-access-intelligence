@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "marts_compared": 13,
+  "comparison": "SHA-256 identical after rebuilding extracted portfolio ZIP",
+  "source": "verified source slices included in package"
+}
