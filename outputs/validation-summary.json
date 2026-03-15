@@ -29,5 +29,6 @@
   "source_acquisition_run": "https://github.com/f20230125-sudo/rx-market-pulse/actions/runs/39008455037",
   "schema_calc_validation_run": "https://github.com/f20230125-sudo/rx-market-pulse/actions/runs/39012569694",
   "portable_rebuild_marts": 13,
-  "ci_analytical_tests_passed": 17
+  "ci_analytical_tests_passed": 17,
+  "standalone_repository_validation_run": "https://github.com/f20230125-sudo/payer-access-intelligence/actions/runs/39014198863"
 }
