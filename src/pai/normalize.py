@@ -17,17 +17,17 @@ def text_encoding(path):
 
 def identifier(value, width):
     value = str(value).strip()
-    if not value.isdigit() or len(value) > width:
+    if not re.fullmatch(r"[0-9]+", value) or len(value) > width:
         raise ValueError(f"Invalid {width}-digit identifier: {value!r}")
     return value.zfill(width)
 
 
 def ndc11(value):
     value = str(value).strip()
-    if re.fullmatch(r"\d{11}", value):
+    if re.fullmatch(r"[0-9]{11}", value):
         return value
     parts = value.split("-")
-    if tuple(map(len, parts)) in {(4, 4, 2), (5, 3, 2), (5, 4, 1), (5, 4, 2)} and all(p.isdigit() for p in parts):
+    if tuple(map(len, parts)) in {(4, 4, 2), (5, 3, 2), (5, 4, 1), (5, 4, 2)} and all(re.fullmatch(r"[0-9]+", p) for p in parts):
         return parts[0].zfill(5) + parts[1].zfill(4) + parts[2].zfill(2)
     raise ValueError(f"Ambiguous or invalid NDC: {value!r}")
 
