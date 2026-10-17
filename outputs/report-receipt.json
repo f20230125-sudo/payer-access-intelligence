@@ -1,7 +1,6 @@
 {
   "mode": "real",
   "pdf_pages": 4,
-  "case_study_pages": 2,
   "renderer": "PyMuPDF",
   "desktop_export": false
 }

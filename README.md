@@ -44,7 +44,7 @@ flowchart LR
     C --> D[DuckDB + SQL: plan / strength / brand grains]
     D --> E[Power BI: 4 pages, 29 DAX measures]
     D --> F[Excel: live formulas and dropdown inputs]
-    D --> G[PDF case study + analytical report]
+    D --> G[PDF analytical report]
     C --> H[Source audit and quality receipts]
 ```
 
