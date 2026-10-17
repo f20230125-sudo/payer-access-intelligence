@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "default_cached_values": {
+    "C12": 367,
+    "F12": 277,
+    "C16": 0.7547683923705722,
+    "F16": 0.8050750882923637,
+    "C20": 18946429,
+    "F20": 0,
+    "C24": 0,
+    "F24": 0
+  },
+  "live_formulas": 8,
+  "input_validations": 5,
+  "readme_links": "all local targets exist"
+}
